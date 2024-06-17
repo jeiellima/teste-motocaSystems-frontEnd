@@ -1,0 +1,133 @@
+/* MotoList.css */
+@charset "UTF-8";
+
+.moto-list {
+  background-color: #2d2d3c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  max-width: 800px;
+  margin: auto;
+}
+
+.moto-list h2 {
+  margin-bottom: 10px;
+}
+
+.moto-list hr {
+  border: 0;
+  border-top: 1px solid #3a3a4a;
+  margin: 10px 0;
+}
+
+.moto-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.moto-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a3a4a;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.moto-list li .moto-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.moto-list li .moto-info .code {
+  margin: 50px;
+  color: rgb(91, 75, 218);
+}
+
+.moto-list li .moto-actions {
+  display: flex;
+  align-items: center;
+}
+
+.moto-list li button {
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Ajuste para espaçamento entre os botões */
+}
+
+
+
+.btn-editar {
+  background-color: #17a2b8;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px; /* Espaçamento entre botões */
+}
+
+.btn-deletar {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-editar:hover {
+  background-color: #138496;
+}
+
+.btn-deletar:hover {
+  background-color: #c82333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-novo-registro {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-novo-registro:hover {
+  background-color: #0056b3;
+}
+
+.status {
+  color: #d4edda; /* Verde claro */
+  background-color: #155724; /* Verde escuro */
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.status-sem-estoque {
+  color: #f8d7da; /* Vermelho claro */
+  background-color: #721c24; /* Vermelho escuro */
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.status-transito {
+  color: #fff3cd; /* Amarelo claro */
+  background-color: #856404; /* Amarelo escuro */
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}

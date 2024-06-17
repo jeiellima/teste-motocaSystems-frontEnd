@@ -1,0 +1,65 @@
+/* MotoDetails.css */
+@charset "UTF-8";
+
+.moto-details {
+  background-color: #2d2d3c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  max-width: 600px;
+  margin: auto;
+}
+
+.moto-details h2 {
+  margin-bottom: 10px;
+}
+
+.moto-details hr {
+  border: 0;
+  border-top: 1px solid #3a3a4a;
+  margin: 10px 0;
+}
+
+.moto-details form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.moto-details form .form-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.moto-details label {
+  display: block;
+}
+
+.moto-details form input,
+.moto-details form select,
+.moto-details form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3a3a4a;
+    color: white;
+    font-size: 14px;
+}
+
+.moto-details form button {
+    padding: 10px 15px;
+    margin-top: 30px;
+    width: 70%;
+    height: 50px;
+    background-color: #007bff;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+}
+
+.moto-details button:hover {
+  background-color: #0056b3;
+}

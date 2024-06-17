@@ -1,0 +1,36 @@
+{
+  "motos": [
+    {
+      "id": "4188",
+      "codigo": "1",
+      "modelo": "CG 160 Titan",
+      "cor": "Vermelho",
+      "valor": "15000",
+      "status": "Em estoque"
+    },
+    {
+      "id": "cff5",
+      "codigo": "2",
+      "modelo": "Biz",
+      "cor": "Vermelho",
+      "valor": "10000",
+      "status": "Sem estoque"
+    },
+    {
+      "id": "e470",
+      "codigo": "3",
+      "modelo": "Honda Pop 100",
+      "cor": "Vermelha",
+      "valor": "12000",
+      "status": "Em trânsito"
+    },
+    {
+      "id": "eac3",
+      "codigo": "56",
+      "modelo": "Elite 125",
+      "cor": "Azul",
+      "valor": "12966",
+      "status": "Em estoque"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+/* MotoForm.css */
+@charset "UTF-8";
+
+.moto-form {
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-divider {
+    border: 0;
+    border-top: 1px solid #3a3a4a;
+    margin: 10px 0;
+}
+
+.form-subtitle {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moto-form form label {
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+.moto-form form input,
+.moto-form form select,
+.moto-form form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3a3a4a;
+    color: white;
+    font-size: 14px;
+}
+
+.moto-form form button {
+    padding: 10px 15px;
+    margin-top: 30px;
+    width: 70%;
+    height: 50px;
+    background-color: #007bff;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+}
